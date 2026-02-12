@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import {Bio} from "../../data/constant";
 import Typewriter from "typewriter-effect";
-import  HeroImage from "../../images/hero.png"
+// import  HeroImage from "../../images/hero.png"
 import HeroBgAnimation from "../HeroBgAnimation"
 
 const HeroContainer =styled.div`
@@ -187,7 +187,7 @@ position: relative;
 border-radius: 50%;
 max-width: 400px;
 max-height: 400px;
-object-fit: cover;
+object-fit: scale-down;
 object-position: center;
 border: 3px solid ${({ theme }) => theme.primary };
 
@@ -231,7 +231,7 @@ const Hero = () => {
             <ResumeButton href={Bio.resume} target="display">Check Resume</ResumeButton>
           </HeroLeftContainer>
           <HeroRightContainer>
-            <Image src={HeroImage} alt="Hero" />
+            <Image src={"https://res.cloudinary.com/dwbl5eukj/image/upload/v1770898452/pic-Photoroom_xaspyx.png"} alt="Hero" />
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>

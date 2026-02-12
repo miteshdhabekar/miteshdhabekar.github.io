@@ -425,23 +425,29 @@ export const projects = [
 
 export const certificate = [
   {
-    id: 1,
+    id: 0,
     title: `Programming in Java - IIT Kharagpur`,
     issuer: "Coursera",
     // Use the direct link here so it renders in your <img> tag
     image: "https://res.cloudinary.com/dwbl5eukj/image/upload/v1770800057/Programming_In_Java_page-0001_1_hih4wh.jpg",
   },
   {
+    id: 1,
+    title: "HTML5",
+    issuer: "Udemy",
+    image: "https://res.cloudinary.com/dwbl5eukj/image/upload/v1770869264/WD_rgtow7.jpg",
+  },
+  {
     id: 2,
-    title: "Javascript for Beginners",
-    issuer: "Simplilearn Skillup",
-    image: "https://res.cloudinary.com/dwbl5eukj/image/upload/v1770869263/Mitesh_Dhabekar_Div-A_20__page-0001_jel9vh.jpg",
+    title: "Javascript",
+    issuer: "Spoken Tutorial by IIT Bombay",
+    image: "https://res.cloudinary.com/dwbl5eukj/image/upload/v1770869304/new2_page-0001_m7puq3.jpg",
   },
   {
     id: 3,
-    title: "Introduction to Google Cloud Platform",
-    issuer: "SimpliLearn Skillup",
-    image: "https://res.cloudinary.com/dwbl5eukj/image/upload/v1770869262/Mitesh_Dhabekar_20_A_page-0001_e4dt71.jpg",
+    title: "Java Business Application",
+    issuer: "Spoken Tutorial by IIT Bombay",
+    image: "https://res.cloudinary.com/dwbl5eukj/image/upload/v1770869264/MITESH_DHABEKAR_20_A__page-0001_1_jsmkk9.jpg",
   },
   {
     id: 4,
@@ -451,53 +457,22 @@ export const certificate = [
   },
   {
     id: 5,
-    title: "MS-Excel",
-    issuer: "SimpliLearn Skillup",
-    image: "https://res.cloudinary.com/dwbl5eukj/image/upload/v1770869263/excel_simplilearn_page-0001_baoky6.jpg",
-  },
-  {
-    id: 6,
     title: "Machine Learning Fundamentals",
     issuer: "Infosys",
     image: "https://res.cloudinary.com/dwbl5eukj/image/upload/v1770869263/20-A-Mitesh_Dhabekar_page-0001_fz3evq.jpg",
   },
   {
-    id: 7,
+    id: 6,
     title: "PHP & MYSQL",
     issuer: "Spoken Tutorial by IIT Bombay",
     image: "https://res.cloudinary.com/dwbl5eukj/image/upload/v1770869264/MITESH-DHABEKAR-Participant-Certificate_1__page-0001_buvygw.jpg",
   },
   {
-    id: 8,
-    title: "Java Business Application",
-    issuer: "Spoken Tutorial by IIT Bombay",
-    image: "https://res.cloudinary.com/dwbl5eukj/image/upload/v1770869264/MITESH_DHABEKAR_20_A__page-0001_1_jsmkk9.jpg",
-  },
-  {
-    id: 9,
-    title: "HTML5",
-    issuer: "Udemy",
-    image: "https://res.cloudinary.com/dwbl5eukj/image/upload/v1770869264/WD_rgtow7.jpg",
-  },
-  {
-    id: 10,
-    title: "Git",
-    issuer: "Spoken Tutorial by IIT Bombay",
-    image: "https://res.cloudinary.com/dwbl5eukj/image/upload/v1770869264/MITESH_DHABEKAR_20_A__page-0001_jdp4rh.jpg",
-  },
-  {
-    id: 11,
+    id: 7,
     title: "Research",
     issuer: "DYP",
     image: "https://res.cloudinary.com/dwbl5eukj/image/upload/v1770869304/new1_page-0001_bbttbl.jpg",
   },
-  {
-    id: 12,
-    title: "Javascript",
-    issuer: "Spoken Tutorial by IIT Bombay",
-    image: "https://res.cloudinary.com/dwbl5eukj/image/upload/v1770869304/new2_page-0001_m7puq3.jpg",
-  },
-  
 ];
 
 
