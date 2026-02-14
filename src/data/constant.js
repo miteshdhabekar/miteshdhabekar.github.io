@@ -331,11 +331,11 @@ export const projects = [
     description:
       "Dropbox inspired Full Stack Application. Used to stored data and manage it securily",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      "https://www.svgrepo.com/show/345617/cloudy.svg",
     tags: ["Next Js", "Neon", "Zod", "Clerk", "React Js", "Hero UI", "Drizzle"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    github: "https://github.com/miteshdhabekar/cloudy",
+    webapp: "",
     member: [
       {
         name: "Mitesh Dhabekar",
@@ -352,7 +352,7 @@ export const projects = [
     description:
       "Waste2Worth is a full-stack food donation platform that bridges the gap between food donors, NGOs, and admins. The goal is to reduce food waste by making it easy to donate surplus food and help those in need.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "https://res.cloudinary.com/dwbl5eukj/image/upload/v1771087052/Screenshot_2025-04-16_112704_e2cnwh.png",
     tags: [
       "React Js",
       "Spring Boot",
@@ -364,8 +364,8 @@ export const projects = [
       "Leaflet"
     ],
     category: "web app",
-    github: "https://github.com/miteshdhabekar/waste2worth.git",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "https://github.com/miteshdhabekar/wastetoworth",
+    webapp: "https://wastetooworth.netlify.app/",
     member: [
       {
         name: "Mitesh Dhabekar",
@@ -388,11 +388,11 @@ export const projects = [
     description:
       "SpaceSync is a web-based workspace booking system aimed at simplifying and digitizing the process of managing and reserving workspaces within an organization.",
     image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+      "https://res.cloudinary.com/dwbl5eukj/image/upload/v1771087322/WhatsApp_Image_2026-02-14_at_10.11.11_PM_ocm4hk.jpg",
     tags: ["PHP", "MySQL", "HTML", "CSS", "Javascript", "Xampp"],
     category: "Web app",
     github: "https://github.com/miteshdhabekar/Space-Sync.git",
-    webapp: "https://brain-tumor.netlify.app/",
+    webapp: "-",
     member: [
       {
         name: "Mitesh Dhabekar",
