@@ -34,8 +34,7 @@ text-overflow: ellipsis;
 `
 
 const Card = styled.div`
-    width: 100%;
-    max-width: 650px;
+    width: 650px;
     border-radius: 10px;
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     padding: 12px 16px;
@@ -73,7 +72,7 @@ const Top = styled.div`
     width: 100%;
     display: flex;
     gap: 12px;
-    flex-direction: column; /* stack image + text */
+    /* flex-direction: column; stack image + text */
 
 `
 
