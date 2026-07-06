@@ -9,7 +9,7 @@ import Education from './components/Education'
 import Footer from './components/Footer';
 import Contact from './components/Contact'
 import Projects from './components/Projects'
-import Certifications from './components/Certifications';
+// import Certifications from './components/Certifications';
 import CertificateDetails from './components/CertificateDetails';
 
 

@@ -40,7 +40,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         <NavItems>
           <NavLink href="/">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
-          <NavLink href='#certificate'>Certifications</NavLink>
+          {/* <NavLink href='#certificate'>Certifications</NavLink> */}
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
         </NavItems>
