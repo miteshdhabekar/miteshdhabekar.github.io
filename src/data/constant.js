@@ -1,8 +1,7 @@
 export const Bio = {
   name: "Mitesh Dhabekar",
   roles: [
-    "Full Stack Developer",
-    "Android Developer"
+    "Full Stack Developer"
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -12,7 +11,7 @@ export const Bio = {
   linkedin: "https://www.linkedin.com/in/miteshdhabekar/",
   twitter: "https://twitter.com/Dmitesh2003",
   insta: "https://www.instagram.com/d.mitu03/",
-  facebook: "https://www.facebook.com/",
+  // facebook: "https://www.facebook.com/",
 };
 
 export const skills = [
@@ -87,10 +86,10 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
-      {
-        name: "Postgresql",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      },
+      // {
+      //   name: "Postgresql",
+      //   image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      // },
       {
         name: "MongoDB",
         image:
@@ -125,11 +124,6 @@ export const skills = [
         image:
           "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
       },
-      {
-        name: "React Native",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-      },
     ],
   },
   {
@@ -151,30 +145,11 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
       },
       {
-        name: "Netlify",
-        image:
-          "https://www.svgrepo.com/show/354110/netlify.svg",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
         name: "Postman",
         image:
           "https://www.svgrepo.com/show/354202/postman-icon.svg",
       },
-      {
-        name: "Vercel",
-        image:
-          "https://www.svgrepo.com/show/354513/vercel-icon.svg",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
-      },
+
     ],
   },
 ];
@@ -326,24 +301,16 @@ export const educations = [
 export const projects = [
   {
     id: 0,
-    title: "Cloudy",
+    title: "CRM Platform",
     date: "Jan 2026 - Present",
     description:
-      "Dropbox inspired Full Stack Application. Used to stored data and manage it securily",
+      "CRM is full stack application that helps businesses manage customer relationships, streamline processes, and improve profitability. It provides a centralized platform for managing customer data, tracking interactions, and automating sales and marketing tasks.",
     image:
       "https://www.svgrepo.com/show/345617/cloudy.svg",
-    tags: ["Next Js", "Neon", "Zod", "Clerk", "React Js", "Hero UI", "Drizzle"],
+    tags: ["React", "Node Js", "Express", "MongoDB", "N8N",],
     category: "web app",
-    github: "https://github.com/miteshdhabekar/cloudy",
-    webapp: "",
-    member: [
-      {
-        name: "Mitesh Dhabekar",
-        img: "https://avatars.githubusercontent.com/u/191708474?s=400&u=ddc2c5e0e4628299b669e1399eeeb33c7db2c52b&v=4",
-        linkedin: "https://www.linkedin.com/in/miteshdhabekar/",
-        github: "https://github.com/miteshdhabekar",
-      },
-    ],
+    github: "https://github.com/miteshdhabekar/Smart-crm.git",
+    webapp: "https://smart-crm-alpha.vercel.app/",
   },
   {
     id: 1,
@@ -364,22 +331,9 @@ export const projects = [
       "Leaflet"
     ],
     category: "web app",
-    github: "https://github.com/miteshdhabekar/wastetoworth",
+    github: "https://github.com/miteshdhabekar/waste2worth",
     webapp: "https://wastetooworth.netlify.app/",
-    member: [
-      {
-        name: "Mitesh Dhabekar",
-        img: "https://avatars.githubusercontent.com/u/191708474?s=400&u=ddc2c5e0e4628299b669e1399eeeb33c7db2c52b&v=4",
-        linkedin: "https://www.linkedin.com/in/miteshdhabekar/",
-        github: "https://github.com/miteshdhabekar/",
-      },
-      {
-        name: "Darshan Doshi",
-        img: "https://www.svgrepo.com/show/404542/avatar-man-profile-user-8.svg",
-        linkedin: "https://www.linkedin.com/in/darshandoshi/",
-        github: "https://github.com/darshandoshi",
-      },
-    ],
+    
   },
   {
     id: 2,
@@ -392,21 +346,7 @@ export const projects = [
     tags: ["PHP", "MySQL", "HTML", "CSS", "Javascript", "Xampp"],
     category: "Web app",
     github: "https://github.com/miteshdhabekar/Space-Sync.git",
-    webapp: "-",
-    member: [
-      {
-        name: "Mitesh Dhabekar",
-        img: "https://avatars.githubusercontent.com/u/191708474?s=400&u=ddc2c5e0e4628299b669e1399eeeb33c7db2c52b&v=4",
-        linkedin: "https://www.linkedin.com/in/miteshdhabekar/",
-        github: "https://github.com/miteshdhabekar/",
-      },
-      {
-        name: "Mohit Shetty",
-        img: "https://www.svgrepo.com/show/404543/avatar-beard-man-person.svg",
-        linkedin: "https://www.linkedin.com/in/mohitshetty/",
-        github: "https://github.com/mohit",
-      },
-    ],
+    webapp: "#",
   },
   // {
   //   id: 3,

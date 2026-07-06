@@ -31,7 +31,7 @@ const HeroBg = styled.div`
   top: 50%;
   right: 0;
   bottom: 0;
-  left: 50%;
+  left: 55%;
   z-index: -1;
   overflow: hidden;
   width: 83%;
@@ -184,8 +184,8 @@ const Image = styled.img`
 width: 100%;
 height: 100%;
 position: relative;
-border-radius: 50%;
-max-width: 400px;
+border-radius: 10%;
+max-width: 300px;
 max-height: 400px;
 object-fit: scale-down;
 object-position: center;
@@ -231,7 +231,7 @@ const Hero = () => {
             <ResumeButton href={Bio.resume} target="display">Check Resume</ResumeButton>
           </HeroLeftContainer>
           <HeroRightContainer>
-            <Image src={"https://res.cloudinary.com/dwbl5eukj/image/upload/v1770898452/pic-Photoroom_xaspyx.png"} alt="Hero" />
+            <Image src={"https://res.cloudinary.com/dwbl5eukj/image/upload/v1783313010/img_1_ytxq3e.jpg"} alt="Hero" />
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>

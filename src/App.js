@@ -91,7 +91,7 @@ if (loading) {
           <HeroSection darkMode={darkMode} setDarkMode={setDarkMode}/>
           <Wrapper>
             <Skills />
-            <Certifications openModal1={openModal1} setOpenModal1={setOpenModal1} />
+            {/* <Certifications openModal1={openModal1} setOpenModal1={setOpenModal1} /> */}
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
