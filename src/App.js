@@ -10,7 +10,8 @@ import Footer from './components/Footer';
 import Contact from './components/Contact'
 import Projects from './components/Projects'
 // import Certifications from './components/Certifications';
-import CertificateDetails from './components/CertificateDetails';
+// import CertificateDetails from './components/CertificateDetails';
+import Experience from './components/Experience';
 
 
 
@@ -49,11 +50,11 @@ linear-gradient(
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
-  const [openModal1, setOpenModal1] = useState({ state: false, certificate: null });
+  // const [openModal1, setOpenModal1] = useState({ state: false, certificate: null });
   const [loading, setLoading] = useState(true);
   
   console.log(openModal);
-  console.log(openModal1);
+  // console.log(openModal1);
 
   useEffect(() => {
     const savedMode = localStorage.getItem("darkMode");
@@ -92,6 +93,7 @@ if (loading) {
           <Wrapper>
             <Skills />
             {/* <Certifications openModal1={openModal1} setOpenModal1={setOpenModal1} /> */}
+            <Experience />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
@@ -103,9 +105,9 @@ if (loading) {
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           }
 
-          {openModal1.state &&
+          {/* {openModal1.state &&
             <CertificateDetails openModal1={openModal1} setOpenModal1={setOpenModal1} />
-          }
+          } */}
         </Body>
       </Router>
     </ThemeProvider>

@@ -14,9 +14,10 @@ const Container = styled.div`
   position: relative;
   z-index: 1;
   align-items: center;
-  min-height: 1000px; /* changed from fixed height */
-  margin-bottom: 2rem;
-  margin-top: -2%;
+  /* min-height: 1000px;  */
+  /* margin-bottom: 2rem; */
+  /* margin-top: -2%; */
+  padding:2rem 0 20% 0;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 98%, 0 100%);
   
   @media (max-width: 960px) {
@@ -41,6 +42,7 @@ align-items: center;
 flex-direction: column;
 width: 100%;
 max-width: 1100px;
+max-height: fit-content;
 gap: 12px;
 @media (max-width: 960px) {
     flex-direction: column;

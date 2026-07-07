@@ -40,7 +40,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         <NavItems>
           <NavLink href="/">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
-          {/* <NavLink href='#certificate'>Certifications</NavLink> */}
+          <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
         </NavItems>
@@ -61,9 +61,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileLink>
-            <MobileLink href='#certificate' onClick={() => {
+            <MobileLink href='#experience' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Certifications</MobileLink>
+            }}>Experience</MobileLink>
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Projects</MobileLink>
